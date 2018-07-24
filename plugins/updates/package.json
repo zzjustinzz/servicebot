@@ -1,0 +1,12 @@
+{
+  "name": "updates",
+  "version": "0.0.1",
+  "main": "updates.js",
+  "private": true,
+  "pluginbot" : {
+    "server" : {
+      "main" : "updates.js",
+      "consumes" : ["database", "analytics"]
+    }
+  }
+}
